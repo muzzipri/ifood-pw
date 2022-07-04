@@ -1,35 +1,61 @@
-.site{
-    border-radius: 5px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+body {
+    font-family: "Open Sans";
+}
+
+.paginas{
+    
+    display: inline-flex;
+    flex-direction: center;
+    justify-content: center;
     align-items: center;
-    width: 112px;
-    height: 112px;
+    width: 225px;
+}
+
+.paginas:hover{
     
 }
-.site:hover{
-    background-color: #d3d3d3;
-    color: black;
+
+.foto-pag{
+    
 }
 
-.rounded-foto{
-    margin-top: 15px;
+.foto{
+
+}
+
+.name1 {
+    display: inline-flex;
+    flex-direction: center;
+    align-items: center;
+
+}
+
+
+.nome-pag{   
+    
+}
+.nome-pag2 {
+    
+    
+}
+
+.n1 {
+    color: #FF0000;
+   
+}
+
+.n2 {
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #FF0000;
+}
+
+.n2:hover {
     background-color: #EEE;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
+    color: #EA1D2C;
 }
 
-.foto-perfil{
-    margin-top: 11px;
-    margin-left: 12px;
-    width: 24px;
-    height: 24px;
-}
-.info-card{
-    color: black;
-    font: 15px Arial;
-    margin-top: 10px;
-    text-align: center;
+.nome-pag2:hover {  
+    color: #EEE;
+    
 }
